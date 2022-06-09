@@ -1,9 +1,18 @@
 {
+  "name": "express-testing",
+  "version": "1.0.0",
+  "description": "looking into express",
+  "main": "./src/js/index.js",
+  "scripts": {
+    "watch": "webpack --watch",
+    "serve": "webpack serve"
+  },
   "devDependencies": {
     "eslint": "^8.17.0",
     "prettier": "^2.6.2"
   },
   "dependencies": {
+    "express": "^4.18.1",
     "nodemon": "^2.0.16"
   }
 }
